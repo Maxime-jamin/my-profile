@@ -1,0 +1,94 @@
+body{
+  background-color: rgba(5,24.47,50,0.2);
+  color: rgb(60,60,60);
+  font-family: Oswald, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  letter-spacing: 1.75px;
+  font-weight: 350;
+}
+
+h1, h2{
+	color: #78586F;
+	font-family: "Libre Baskerville", serif;
+} 
+
+
+a{
+	text-decoration: none;
+	color: rgb(50,50,50);
+	transition: color 0.3s ease;
+}
+
+a:hover{
+	color: #006DA3;
+	outline-style: none;
+}
+
+p{
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 950px;
+	margin: 40px auto;
+	background-color: rgba(1,23,47,0);
+}
+.grey-card{
+  padding: 20px;
+  padding-top: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+  margin: 40px 0px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(229,240,240,0.5);
+}
+.img-circle{
+  border-radius: 50%;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline;
+	font-size: 50px;
+	letter-spacing: 25px;
+}
+.btn-green{
+	background-color: #0B846E;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 3px;
+}
+.btn-green:hover{
+	color: white;
+	background-color: #006DA3;
+}
+
+
+@media (max-width: 1000px){
+	.container{
+  	width: 700px;
+  }
+}
+
+@media (max-width: 750px){
+	.container{
+		width:500px;
+	}
+}
+  
+@media (max-width: 525px){
+	.container{
+  	width: 475px;
+  }
+}
+  
+
+#first-card{
+	padding: 40px;
+	padding-top: 10px;
+}
+
